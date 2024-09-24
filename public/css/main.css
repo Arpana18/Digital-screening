@@ -7466,3 +7466,70 @@ b {
     line-height: 1.2;
   }
 }
+
+.app-mini-profile-header {
+  align-items: start;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4c6272;
+}
+@media (min-width: 40.0625em) {
+  .app-mini-profile-header {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.47368;
+  }
+}
+@media print {
+  .app-mini-profile-header {
+    font-size: 14pt;
+    line-height: 1.15;
+  }
+}
+
+.app-mini-profile-header dl {
+  margin: 0;
+  margin-right: 32px;
+}
+
+.app-mini-profile-header dl:last-child {
+  margin-right: 0;
+}
+
+.app-mini-profile-header dd {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.app-mini-profile-header dt,
+.app-mini-profile-header dd {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.app-mini-profile-header dt {
+  font-weight: bold;
+}
+
+@media (max-width: 40.0525em) {
+  .app-mini-profile-header {
+    display: block;
+  }
+  .app-mini-profile-header dl {
+    margin-right: 0;
+  }
+  .app-mini-profile-header dl:last-child {
+    margin-bottom: 0;
+  }
+  .app-mini-profile-header dl:last-child dd {
+    margin-bottom: 0;
+  }
+}
+.app-u-no-wrap {
+  white-space: nowrap;
+}
